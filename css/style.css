@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    width:1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -127,3 +127,36 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/* tablet 768-481 */
+@media screen and (max-width:1140px) {
+   .container {
+     width:100%;
+   }
+}
+
+
+ /* mobile versione 480- .. */
+ @media screen and (max-width:480px){
+    
+    .lessons .row{
+        display:flex;
+        flex-wrap:wrap
+
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body .why-us{
+        background-color: black;
+    }
+
+
+}
+
+
+
